@@ -1,0 +1,50 @@
+@import '@/styles/variants.scss';
+@import '@/styles/mixins.scss';
+
+.e-nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    height: 60px;
+    width: 100%;
+    border-radius: 8px;
+
+    padding: 0 12px 0 12px;
+
+    &--theme-light {
+        border: 1px solid $neutral-300;
+    }
+
+    &--theme-dark {
+        background-color: $neutral-800;
+
+        .e-nav-bar__icon-container {
+            &:hover {
+                background-color: $neutral-700;
+            }
+        }
+    }
+
+    &__icon-container {
+        padding: 8px;
+        cursor: pointer;
+        border-radius: 8px;
+        border: 2px solid transparent;
+        display: flex;
+        align-items: center;
+
+        &:hover{
+            background-color: $neutral-300;
+        }
+
+        &:focus, &:active {
+            border: 2px solid $red-400;
+        }
+
+
+        &__icon{
+            margin-top: 2px;
+        }
+    }
+}

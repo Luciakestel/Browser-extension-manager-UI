@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&display=swap');
+
+// Colors
+
+$neutral-900: hsl(227, 75%, 14%);
+$neutral-800: hsl(226, 25%, 17%);
+$neutral-700: hsl(225, 23%, 24%);
+$neutral-600: hsl(226, 11%, 37%);
+$neutral-300: hsl(0, 0%, 78%);
+$neutral-200: hsl(217, 61%, 90%);
+$neutral-100: hsl(0, 0%, 93%);
+$neutral-0: hsl(200, 60%, 99%);
+
+$red-400: hsl(3, 86%, 64%);
+$red-500: hsl(3, 71%, 56%);
+$red-700: hsl(3, 77%, 44%);
+
+$light-gradient: linear-gradient(180deg, #EBF2FC 0%, #EEF8F9 100%);
+$dark-gradient: linear-gradient(180deg, #040918 0%, #091540 100%);
+
+
+// Font Families
+
+  $font-family-base: 'Noto Sans', sans-serif;
+
+
+// Font Weights
+
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-bold: 700;

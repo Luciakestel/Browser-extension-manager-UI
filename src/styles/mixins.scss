@@ -1,0 +1,20 @@
+@mixin Mobile {
+  @media (max-width: 375px) {
+    @content;
+  }
+}
+@mixin Desktop {
+  @media (min-width: 1440px) {
+    @content;
+  }
+}
+@mixin DarkMode {
+  @media (prefers-color-scheme: dark) {
+    @content;
+  }
+}
+@mixin LightMode {
+  @media (prefers-color-scheme: light) {
+    @content;
+  }
+}

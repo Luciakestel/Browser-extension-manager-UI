@@ -1,0 +1,34 @@
+@import '@/styles/variants.scss';
+@import '@/styles/mixins.scss';
+
+.e-nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 60px;
+    border-radius: 8px;
+
+    &__logo {
+        padding-left: 12px;
+    }
+
+    &__theme{
+        cursor: pointer;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        padding: 12px;
+        border-radius: 6px;
+
+        &--light {
+            background: $neutral-300;
+        }
+        
+        &--dark {
+            background: $neutral-700;
+        }
+    }
+}
